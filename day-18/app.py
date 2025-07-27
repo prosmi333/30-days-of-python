@@ -15,6 +15,5 @@ distance = 8 - (-12)
 
 
 def is_valid_variable(string):
-    regex_pattern = r'first_name'
-    matches = re.findall(regex_pattern, string)
-    print(matches)
+    regex_pattern = r'^[a-zA-Z_][a-zA-Z0-9_]*$'
+    return bool(re.match(regex_pattern, string))
