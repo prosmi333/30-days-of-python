@@ -61,9 +61,13 @@ print(acronym2)
 print(company.index('C'))
 
 # Exercise 20
+# index() is used to find first occurence of the specified value
+# raises an exception or throws an error if not found
 print(company.index('F'))
 
 # Exercise 21
+# rfind() is used to find last occurence of the specified value
+# does not raise exception or throw an error if not found
 print(company.rfind('l'))
 
 # Exercise 22
