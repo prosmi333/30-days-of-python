@@ -5,8 +5,9 @@
 ## Flask
 
 - Flask uses Jinja2 template engine
-  - Can also be used with other modern front libraries such as React
+- Can also be used with other modern front libraries such as React
 
-### Folder Structure
+## Request method
 
-![An Image](<\img\folderStructure~AsabenehYetayah(30DaysOfPython)>)
+- The request method is a function to handle request methods and also to access form data. app.py
+- There are different request methods(GET, POST, PUT, DELETE) are the common request methods which allow us to do CRUD(Create, Read, Update, Delete) operation
