@@ -14,7 +14,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 #
-MONGODB_URI='mongodb+srv://Prosmi:prosmi1234-5@30daysofpython.6df22jo.mongodb.net/'
+MONGODB_URI='mongodb+srv://Prosmi:<some_password>@30daysofpython.6df22jo.mongodb.net/'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client['thirty_days_of_python'] # accessing the database
 
